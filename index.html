@@ -1,4 +1,41 @@
-console.clear();
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>CodePen - 10winter</title>
+  
+  
+  
+  
+      <style>
+      #myCanvas{
+  background:rgb(223,200,225);
+}
+    </style>
+
+  
+  
+  
+  
+</head>
+
+<body translate="no" >
+
+  <canvas id="myCanvas" width=400 height=300></canvas>
+
+<div>Team A:<span id="scoreA">0</span></div>
+<div>Team B:<span id="scoreB">0</span></div>
+<div>Time:<span id="Time">0</span>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script >
+    console.clear();
 c = document.getElementById("myCanvas");
 ctx = c.getContext("2d");
 balls = [];
@@ -72,3 +109,11 @@ function onKeyDown(e) {
   checkCollision();
   update();
 }
+  </script>
+
+  
+  
+
+</body>
+</html>
+ 
